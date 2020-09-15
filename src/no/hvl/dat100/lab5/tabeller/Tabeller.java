@@ -31,7 +31,10 @@ public class Tabeller {
 		
 		tabString += "]";
 		
-
+		//Trudde den skulle returnere "[ tabell ]" men fikk feil på jUnit.
+		//pasta koden her så dåke ser eg kan ta det med:
+		
+		//tabString = "\"" + tabString + "\"";
 		
 		return tabString;
 		
